@@ -174,10 +174,6 @@
   color: #333;
 }
 
-div {
-  padding-top: 0px;
-}
-
 .text-left {
 }
 
@@ -198,5 +194,39 @@ div {
 
 .col {
   width: 40%;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+#titles {
+  text-align: center;
+}
+
+#intro {
+  padding-top: 40px;
+}
+
+#titles-1 {
+}
+
+.row {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.contact-clean {
+  padding-top: 0px;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+  text-align: center;
+  align-content: center;
+}
+
+.navbar.navbar-light.navbar-expand-md {
+  padding-top: 13px;
 }
 
