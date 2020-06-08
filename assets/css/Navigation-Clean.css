@@ -337,7 +337,7 @@
 
 @media (min-width: 576px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl {
-    padding-top: 7vw;
+    padding-top: 4vw;
   }
 }
 
@@ -355,5 +355,9 @@
   .nav.navbar-nav.ml-auto {
     align-items: end;
   }
+}
+
+#navlinks {
+  margin-right: 1vw;
 }
 
