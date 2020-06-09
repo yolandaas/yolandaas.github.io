@@ -1,7 +1,8 @@
 .footer-basic {
-  padding: 40px 0;
+  padding: 40px;
   background-color: #ffffff;
   color: #4b4c4d;
+  font-family: 'Raleway';
 }
 
 .footer-basic ul {

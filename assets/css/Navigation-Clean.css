@@ -164,9 +164,6 @@
   }
 }
 
-.text-left {
-}
-
 @media (min-width: 768px) {
   #welc {
     padding-top: 20px;
@@ -179,7 +176,7 @@
 .col {
   width: 40%;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 
 #titles {
@@ -191,7 +188,7 @@
 }
 
 .row {
-  padding-top: 20px;
+  padding-top: 30px;
   text-align: center;
 }
 
@@ -200,7 +197,8 @@
 }
 
 .navbar.navbar-light.navbar-expand-md {
-  padding-top: 13px;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 @media (min-width: 768px) {
