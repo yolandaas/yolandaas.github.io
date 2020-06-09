@@ -102,11 +102,11 @@ textarea {
 .connect-icon {
   font-size: 32px;
   display: inline-block;
-  color: #757980;
+  color: #4b4c4d;
   margin: 0 10px;
   width: 60px;
   height: 60px;
-  border: 1px solid #c8ced7;
+  border: 1px solid #4b4c4d;
   text-align: center;
   border-radius: 50%;
   line-height: 60px;
@@ -165,5 +165,24 @@ img {
 
 #name {
   padding-bottom: 0px;
+}
+
+#wip:hover {
+  color: rgb(197,197,197);
+  text-decoration: none;
+}
+
+a {
+  color: rgb(5,17,59);
+}
+
+#wip {
+  border: 1px solid white;
+  color: white;
+}
+
+#home {
+  padding-top: 10px;
+  padding-bottom: 0;
 }
 
