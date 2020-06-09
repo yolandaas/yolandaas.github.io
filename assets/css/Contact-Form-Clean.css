@@ -163,3 +163,7 @@ img {
   max-height: 600px;
 }
 
+#name {
+  padding-bottom: 0px;
+}
+
