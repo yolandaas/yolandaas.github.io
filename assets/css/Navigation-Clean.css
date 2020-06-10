@@ -335,13 +335,13 @@
 
 @media (min-width: 576px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl {
-    padding-top: 4vw;
+    padding-top: 2vw;
   }
 }
 
 @media (max-width: 575px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl {
-    padding-top: 1vw;
+    padding-top: 3vw;
   }
 }
 

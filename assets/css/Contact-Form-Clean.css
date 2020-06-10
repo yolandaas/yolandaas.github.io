@@ -15,7 +15,8 @@ form {
 }
 
 .divider {
-  padding: 5vw;
+  height: 5vw;
+  max-height: 100px;
 }
 
 body {
@@ -102,11 +103,11 @@ textarea {
 .connect-icon {
   font-size: 32px;
   display: inline-block;
-  color: #4b4c4d;
+  color: #0056b3;
   margin: 0 10px;
   width: 60px;
   height: 60px;
-  border: 1px solid #4b4c4d;
+  border: 1px solid #0056b3;
   text-align: center;
   border-radius: 50%;
   line-height: 60px;
@@ -154,8 +155,8 @@ img {
 }
 
 .text-center {
-  padding-top: 20px;
-  padding-bottom: 40px;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
 }
 
 img {
@@ -168,12 +169,13 @@ img {
 }
 
 #wip:hover {
-  color: rgb(197,197,197);
+  color: rgb(187,187,187);
+  border: 1px solid rgb(187,187,187);
   text-decoration: none;
 }
 
 a {
-  color: #54a4ed;
+  color: #0056b3;
 }
 
 #wip {
@@ -192,5 +194,110 @@ a {
 
 .wiplink {
   color: white;
+}
+
+@media (max-width: 576px) {
+  #index {
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (min-width: 576px) {
+  #navname {
+    font-size: 2.5vw;
+  }
+}
+
+@media (max-width: 566px) {
+  #navname {
+    font-size: 4vw;
+  }
+}
+
+#navlink:hover {
+  color: rgb(187,187,187);
+  text-decoration: none;
+}
+
+.wiplink:hover {
+  color: rgb(187,187,187);
+  text-decoration: none;
+}
+
+#homebutton:hover {
+  color: rgb(187,187,187);
+  border: 1px solid rgb(187,187,187);
+}
+
+.connect-icon:hover {
+  color: #54a4ed;
+  border: 1px solid #54a4ed;
+}
+
+a:hover {
+  color: #54a4ed;
+  text-decoration: none;
+}
+
+.connect-icon:hover {
+  color: #54a4ed;
+  text-decoration: none;
+}
+
+#connectbottom:hover {
+  color: #54a4ed;
+}
+
+.connectbottomcircle {
+  border: 1px solid #54a4ed;
+}
+
+#aboutbar:hover {
+  color: #0056b3;
+}
+
+.col-sm-6.col-lg-4.item {
+  padding-bottom: 10px;
+}
+
+.h3, h3 {
+  padding-top: 8px;
+}
+
+.card.border-dark {
+  height: 100%;
+  border-color: rgb(0,86,179)!important;
+}
+
+.card-header.bg-dark.text-light {
+  font-family: 'Raleway';
+}
+
+.btn-dark:not(:disabled):not(.disabled).active, .btn-dark:not(:disabled):not(.disabled):active, .show > .btn-dark.dropdown-toggle {
+  color: #fff;
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.btn:not(:disabled):not(.disabled) {
+}
+
+.btn-dark {
+  background-color: rgba(255,255,255,0);
+  border-color: #0056b3;
+  text-decoration: none;
+  color: #0056b3;
+}
+
+.btn-dark:hover {
+  color: #54a4ed;
+  background-color: rgba(255,255,255,0);
+  border-color: #54a4ed;
+}
+
+.card-img.w-100.d-block.projimg {
+  border-right: 0;
+  border-left: 0;
 }
 

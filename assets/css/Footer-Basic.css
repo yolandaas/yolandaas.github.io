@@ -1,7 +1,7 @@
 .footer-basic {
   padding: 40px;
   background-color: #ffffff;
-  color: #4b4c4d;
+  color: #0056b3;
   font-family: 'Raleway';
 }
 
@@ -25,7 +25,7 @@
 }
 
 .footer-basic ul a:hover {
-  opacity: 1;
+  color: #54a4ed;
 }
 
 .footer-basic .social {
@@ -41,21 +41,16 @@
   display: inline-block;
   text-align: center;
   border-radius: 50%;
-  border: 1px solid #78797a;
+  border: 1px solid #0056b3;
   margin: 0 8px;
   color: inherit;
-  opacity: 0.75;
-}
-
-.footer-basic .social > a:hover {
-  opacity: 0.9;
 }
 
 .footer-basic .copyright {
   margin-top: 15px;
   text-align: center;
   font-size: 13px;
-  color: #aaa;
+  color: #0056b3;
   margin-bottom: 0;
 }
 

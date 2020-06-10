@@ -11,9 +11,12 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yellowtail">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/-Filterable-Cards-.css">
+    <link rel="stylesheet" href="assets/css/-Filterable-Gallery-with-Lightbox-BS4-.css">
     <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/Projects-Clean.css">
     <link rel="stylesheet" href="assets/css/Social-Icons.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
@@ -22,62 +25,62 @@
     <section id="about" style="max-width: 100%;background-color: white;">
         <nav class="navbar navbar-light navbar-expand-md" style="color: rgb(0,0,0);border-bottom: 1px solid rgb(116,116,116);">
             <div class="container-fluid">
-                <div class="container" style="padding: 0px;"><a class="navbar-brand" href="index.html" style="font-family: Raleway, sans-serif;font-size: 28px;font-weight: bold;background-position: center;background-repeat: no-repeat;color: rgb(45,45,45);">Yolanda Shen</a>
+                <div class="container" style="padding: 0px;"><a class="navbar-brand" href="index.html" style="font-family: Raleway, sans-serif;font-size: 28px;font-weight: bold;background-position: center;background-repeat: no-repeat;color: #0056b3;">Yolanda Shen</a>
                     <div class="collapse navbar-collapse"
-                        id="navcol-1" style="color: rgb(0,0,0);">
-                        <ul class="nav navbar-nav ml-auto" style="font-family: Raleway, sans-serif;">
-                            <li class="nav-item" role="presentation"><a class="nav-link active" href="about.html" style="color: rgb(0,0,0);">About Me</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" href="wip.html" style="color: rgb(0,0,0);">Projects</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" href="wip.html" style="color: rgb(0,0,0);">Resume</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" href="wip.html" style="color: rgb(0,0,0);">Contact Me</a></li>
-                        </ul>
-                    </div><button data-target="#navcol-1" data-toggle="collapse" class="navbar-toggler border-dark" style="filter: invert(0%);"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button></div>
+                        id="navcol-1" style="color: rgb(0,0,0);"><ul class="nav navbar-nav ml-auto" style="font-family: Raleway, sans-serif;">
+    <li role="presentation" class="nav-item"><a class="nav-link active" href="about.html" style="color: rgb(0,86,179);">About Me</a></li>
+    <li role="presentation" class="nav-item"><a class="nav-link active navlink" id="navlink" href="projects.html" style="color: black;">Projects</a></li>
+    <li role="presentation" class="nav-item"><a class="nav-link" href="wip.html" style="color: rgb(0,0,0);">Resume</a></li>
+    <li role="presentation" class="nav-item"><a class="nav-link" href="wip.html" style="color: rgb(0,0,0);">Connect</a></li>
+</ul></div><button data-target="#navcol-1" data-toggle="collapse" class="navbar-toggler border-dark" style="filter: invert(0%);"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button></div>
             </div>
         </nav>
         <div class="container d-flex d-lg-flex justify-content-center justify-content-lg-start about" style="color: rgb(0,0,0);background-repeat: no-repeat;font-family: inherit;text-align: center;align-items: center;">
             <div class="row" id="about-row" style="width: 100%;">
                 <div class="col about" id="about-img" style="color: rgb(0,0,0);margin-bottom: 200px;"><img class="d-flex about-img" style="width: 100%;background-image: url(&quot;assets/img/IMG_8621.jpg&quot;);background-size: cover;background-repeat: repeat;background-position: center;height: 600px;">
                     <h1 style="font-family: Raleway, sans-serif;font-size: 20pt;padding-top: 30px;color: rgb(0,0,0);">Get in touch!</h1>
-                    <p style="font-size: 14pt;padding: 10px;margin-right: 5px;margin-bottom: 30px;">You know a little about me, so now tell me something about yourself! I am always willing to chat to get to know each other.</p>
-                    <div class="social"><a href="https://www.linkedin.com/in/yolanda-shen/"><i class="icon ion-social-linkedin connect-icon"></i></a><a href="mailto:yashen@berkeley.edu"><i class="icon ion-android-mail connect-icon"></i></a><a href="mailto:yashen@berkeley.edu"><i class="icon ion-ios-paper connect-icon"></i></a></div>
+                    <p style="font-size: 14pt;padding: 10px;margin-right: 5px;margin-bottom: 30px;">Here's little about me, so tell me something about yourself! I am always willing to chat and get to know you.</p>
+                    <div class="social"><a href="https://www.linkedin.com/in/yolanda-shen/"><i class="icon ion-social-linkedin connect-icon"></i></a><a href="mailto:yashen@berkeley.edu"><i class="icon ion-android-mail connect-icon"></i></a><a href="https://github.com/yolandaas"><i class="icon ion-social-github connect-icon"></i></a></div>
                 </div>
                 <div class="col about-text" style="margin-left: 5px;margin-right: 5px;">
                     <h1 class="text-left" style="font-family: Raleway, sans-serif;font-size: 28pt;color: rgb(45,45,45);font-weight: 550;">Hello! I'm Yolanda.</h1><p class="text-left" style="font-size: 14pt;font-family: Assistant, sans-serif;">
     I&#39;m a third year majoring in genetics and data science at UC Berkeley. When I&#39;m not in class, you can find me teaching <a href="https://www.cs10.org" target="_blank">CS10</a>,
     leading a course development team, or doing bioinformatics research. <br /><br />
-    When I was in middle school, my dad had me cold email biology professors to ask for mentorship. In hindsight, no professor has that kind of time, but while researching I came across protein folding on the Wiki page of unsolved biological problems. It happened that a Nobel Prize-winning professor was researching that exact question. Seeing high-achieving scientists working on the same topics you are interested in was inspirational to twelve-year-old me. I set my sights on proteomics and genomics and haven't looked back. <br /><br />
+    When I was in middle school, my dad had me cold email biology professors to ask for mentorship. In hindsight, no professor has that kind of time, but while researching I came across protein folding. It happened that a Nobel Prize-winning professor was researching that exact question. Seeing high-achieving scientists working on the same topics you are interested in was inspirational to twelve-year-old me. I set my sights on proteomics and genomics and haven't looked back. <br /><br />
     In my free time, I enjoy learning the kalimba (an African instrument that is best described as a piano for your thumbs), reading a good book, making matcha, and watching gaming streams. Above all, I try to listen and learn as much as I can to be empathetic person and a sincere friend. <br /><br />
     
     <b> Location  |  </b> Bay Area, CA <br />
-    <b> Currently reading   |  </b> <em>Know My Name </em>by Chanel Miller<br />
+    <b> Currently reading   |  </b> <a href="https://en.wikipedia.org/wiki/Know_My_Name:_A_Memoir" target="_blank"><em>Know My Name </em>by Chanel Miller</a><br />
     <b> Ongoing projects   |  </b> Autoregressive evolution modeler, an interactive National Parks tracker, <a href="https://github.com/yolandaas/yolandaas.github.io" target="_blank">personal website!</a><br />
-    <b> Other interests   |  </b> Making art, American football, finding new mac and cheese recipes, travel planning, bullet journaling, social distancing with friends<br />                                                     
+    <b> Other interests   |  </b> Making art, American football, finding new mac and cheese recipes with my brother, travel planning, drinking coffee, playing guitar, bullet journaling, social distancing with friends<br />                                                     
     <br />
     
-    You can read more about the activities I'm passionate about <a href="https://yolandaas.github.io/resume.html" target="_blank">here</a>.<br />
+    You can read more about the activities I'm passionate about <a href="https://yolandaas.github.io/wip.html" target="_blank">here</a>.<br />
 </p></div>
             </div>
         </div>
     </section>
     <section class="d-flex flex-column align-items-center align-items-lg-center" style="padding-top: 30px;text-align: center;background-color: #ffffff;">
         <h1 style="font-family: Raleway, sans-serif;font-weight: 550;width: 100%;font-size: 28pt;">National Parks</h1><p class="text-center" style="font-size: 14pt;font-family: Assistant, sans-serif;width: 75%;max-width: 1100px;">The biggest item on my bucket list is to visit all 61 American National Parks. One project that I will be working on is an interactive map tracker. Parks that I&#39;ve visited will be colored, and clicking on a region will show you details of both the
-    park and my personal visits. It will be a difficult but amazing combination of code and design.<br /><br />Until this project comes to fruition, <a href=natparkdata.html target="_blank">here is some data on the parks</a>. Below is as a preliminary planning sketch for the project. I hope you are excited about
-    nature as I am!</p><img style="background-image: url(&quot;assets/img/IMG_01632.jpg&quot;);max-width: 900px;max-height: 600px;background-size: cover;width: 80vw;height: 55vw;"></section>
+    park and my personal visits. It will be a difficult but amazing combination of code and design.<br /><br />Until this project comes to fruition, <a href=natparkdata.html target="_blank">here is some generic and personal data on the parks</a>. Generic data from<a href=https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States target ="_blank"> Wikipedia. </a> Below is as a preliminary planning sketch for the project. I hope you are excited about nature as I am!</p><img style="background-image: url(&quot;assets/img/IMG_01632.jpg&quot;);max-width: 900px;max-height: 600px;background-size: cover;width: 80vw;height: 55vw;"></section>
     <div class="footer-basic">
         <footer>
-            <div class="social"><a class="connect-icon" href="https://www.linkedin.com/in/yolanda-shen/"><i class="icon ion-social-linkedin"></i></a><a class="connect-icon" href="mailto:yashen@berkeley.edu"><i class="icon ion-android-mail"></i></a></div>
-            <ul class="list-inline">
+            <div class="social"><a class="connectbottom" href="https://www.linkedin.com/in/yolanda-shen/"><i class="icon ion-social-linkedin connectbottom" id="connectbottom"></i></a><a class="connectbottomcircle" href="mailto:yashen@berkeley.edu"><i class="icon ion-android-mail connectbottom" id="connectbottom"></i></a></div>
+            <ul
+                class="list-inline">
                 <li class="list-inline-item"><a href="index.html">Home</a></li>
                 <li class="list-inline-item"><a href="about.html">About</a></li>
-                <li class="list-inline-item"><a href="wip.html">Projects</a></li>
+                <li class="list-inline-item"><a href="projects.html">Projects</a></li>
                 <li class="list-inline-item"><a href="wip.html">Resume</a></li>
-                <li class="list-inline-item"><a href="wip.html">Contact</a></li>
-            </ul>
-            <p class="copyright">Yolanda Shen © 2020</p>
+                <li class="list-inline-item"><a href="wip.html">Connect</a></li>
+                </ul>
+                <p class="copyright">Yolanda Shen © 2020</p>
         </footer>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/-Filterable-Cards-.js"></script>
+    <script src="assets/js/-Filterable-Gallery-with-Lightbox-BS4-.js"></script>
 </body>
 
 </html>
