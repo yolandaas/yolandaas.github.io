@@ -42,3 +42,31 @@
 @keyframes pulsate {
 }
 
+.card-header.bg-dark.text-light.proj_title {
+  background-color: rgb(255,255,255)!important;
+  color: #0056b3!important;
+  border-width: 0px;
+  font-weight: 600;
+}
+
+.card-body.proj-descr {
+  padding-top: 5px;
+  border-radius: 0px;
+}
+
+.card-img-top.w-100.d-block.proj-img {
+  height: 250px;
+  border: 0px;
+  background-repeat: no-repeat;
+  border-top-right-radius: 11px;
+  border-top-left-radius: 11px;
+  border-bottom: 1px solid gray;
+}
+
+.btn-dark.focus, .btn-dark:focus {
+  color: #0056b3;
+  background-color: rgba(0,86,179,0);
+  border-color: #0056b3;
+  box-shadow: none;
+}
+

@@ -268,6 +268,7 @@ a:hover {
 .card.border-dark {
   height: 100%;
   border-color: rgb(0,86,179)!important;
+  border-radius: 10px;
 }
 
 .card-header.bg-dark.text-light {
@@ -278,9 +279,6 @@ a:hover {
   color: #fff;
   background-color: #0056b3;
   border-color: #0056b3;
-}
-
-.btn:not(:disabled):not(.disabled) {
 }
 
 .btn-dark {
