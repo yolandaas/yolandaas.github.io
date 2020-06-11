@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Assistant">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yellowtail">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/-Filterable-Cards-.css">
     <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
@@ -56,143 +58,9 @@
                 <p class="copyright" style="color: rgb(255,255,255);">Yolanda Shen © 2020</p>
         </footer>
     </section>
-    <section class="py-5 proj">
-        <div class="container align-items-xl-center">
-            <h1 class="text-center mb-4" style="font-family: 'Raleway';padding-bottom: 1vw;">Coding Projects</h1>
-            <div class="filtr-controls text-center lead text-uppercase mb-3" style="font-family: 'Assistant';"><span class="active d-inline-block mx-3 py-1 position-relative" data-filter="all">all </span><span class="d-inline-block mx-3 py-1 position-relative" data-filter="1">bioinformatics</span><span class="d-inline-block mx-3 py-1 position-relative"
-                    data-filter="2">Java</span><span class="d-inline-block mx-3 py-1 position-relative" data-filter="3">Python</span><span class="d-inline-block mx-3 py-1 position-relative" data-filter="4">HTML/CSS</span><span class="d-inline-block mx-3 py-1 position-relative"
-                    data-filter="5">Data Science</span></div>
-            <div class="row d-xl-flex filtr-container">
-                <div class="col-md-6 col-lg-4 filtr-item" data-category="2">
-                    <div class="card border-dark"><img class="card-img-top w-100 d-block proj-img" style="background-image: url(&quot;assets/img/git.png&quot;);background-position: center;background-size: contain;">
-                        <div class="card-header bg-dark text-light proj_title" style="border-radius: 0;">
-                            <h5 class="m-0"><strong>Gitlet</strong></h5>
-                        </div>
-                        <div class="card-body proj-descr">
-                            <p class="card-text"><strong>A mini git-based version control system</strong><br></p>
-                            <p class="card-text">This project implemented the following commands: init, add, commit, rm, log, global-log, find, status, checkout, branch, rm-branch, reset, merge.&nbsp;<br></p>
-                        </div>
-                        <div class="d-lg-flex d-flex justify-content-lg-center card-footer"><a class="btn btn-dark btn-sm proj_spec" role="button" href="https://inst.eecs.berkeley.edu/~cs61b/fa19/materials/proj/proj3/index.html" target="_blank">Project Spec</a></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 filtr-item" data-category="4">
-                    <div class="card border-dark"><img class="card-img-top w-100 d-block proj-img" style="background-image: url(&quot;assets/img/website.png&quot;);background-position: top;background-size: cover;">
-                        <div class="card-header bg-dark text-light proj_title">
-                            <h5 class="m-0" style="font-weight: 600;">Personal Website</h5>
-                        </div>
-                        <div class="card-body proj-descr">
-                            <p class="card-text"><strong>A personal portfolio project</strong></p>
-                            <p class="card-text">I self-taught HTML/CSS, JavaScript, and the Bootstrap software in order to create my first website!</p>
-                        </div>
-                        <div class="d-lg-flex d-flex justify-content-lg-center card-footer"><a class="btn btn-dark btn-sm proj_gh" role="button" href="github.com/yolandaas" style="margin-right: 56px;" target="_blank">Github</a><a class="btn btn-dark btn-sm proj_gh" role="button" href="https://docs.google.com/document/u/1/d/1DIRhCYvhcXuJ9ZcQSHnidjMyPya4dWm8942VNCmQFNM/edit#"
-                                target="_blank">Work Log</a></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 filtr-item" data-category="2">
-                    <div class="card border-dark"><img class="card-img-top w-100 d-block proj-img" style="background-image: url(&quot;assets/img/tablut.png&quot;);height: 250px;background-position: center;background-size: cover;background-repeat: no-repeat;">
-                        <div class="card-header bg-dark text-light proj_title">
-                            <h5 class="m-0"><strong>Tablut</strong></h5>
-                        </div>
-                        <div class="card-body proj-descr">
-                            <p class="card-text"><strong>Game-playing AI and custom GUI</strong></p>
-                            <p class="card-text">Tablut is a recreation of an ancient Nordic and Celtic strategy board game between two players. The CPU player is intelligent enough to find a win within 4 moves. The implementation allows gameplay through either terminal and
-                                GUI.<br></p>
-                        </div>
-                        <div class="d-lg-flex d-flex justify-content-lg-center card-footer"><a class="btn btn-dark btn-sm proj_spec" role="button" href="#" target="_blank">Project Spec</a></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 filtr-item" data-category="3">
-                    <div class="card border-dark"><img class="card-img-top w-100 d-block proj-img" style="background-image: url(&quot;assets/img/scheme.png&quot;);height: 250px;background-position: left;border-bottom: 1px solid gray;background-size: cover;">
-                        <div class="card-header bg-dark text-light proj_title">
-                            <h5 class="m-0"><strong>Scheme Interpreter</strong></h5>
-                        </div>
-                        <div class="card-body proj-descr">
-                            <p class="card-text"><strong>Python- based interpreter for Scheme</strong></p>
-                            <p class="card-text">An interpreter for a subset of the Scheme language. Terminal-based inputs of Scheme statements were translated into tokens, then run through a Read-Eval-Print loop for accurate evaluation.<br></p>
-                        </div>
-                        <div class="d-lg-flex d-flex justify-content-lg-center card-footer"><a class="btn btn-dark btn-sm proj_spec" role="button" href="https://inst.eecs.berkeley.edu/~cs61a/fa18/proj/scheme/" target="_blank">Project Spec</a></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 filtr-item" data-category="2">
-                    <div class="card border-dark"><img class="card-img-top w-100 d-block proj-img" style="background-image: url(&quot;assets/img/enigma.png&quot;);height: 250px;background-position: center;border-bottom: 1px solid gray;background-size: cover;">
-                        <div class="card-header bg-dark text-light proj_title">
-                            <h5 class="m-0"><strong>Enigma</strong></h5>
-                        </div>
-                        <div class="card-body proj-descr">
-                            <p class="card-text"><strong>Encryption machine implementation</strong></p>
-                            <p class="card-text">An accurate re-creation of the WWII Enigma encryption machine. The project allows input as a text file, and encrypts it given a rotor setting, plug board, alphabet, and ring setting (Ringstellung). The code is capable of encrypting
-                                and decrypting.<br></p>
-                        </div>
-                        <div class="d-lg-flex d-flex justify-content-lg-center card-footer"><button class="btn btn-dark btn-sm" type="button">Project Spec</button></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 filtr-item" data-category="3">
-                    <div class="card border-dark"><img class="card-img-top w-100 d-block proj-img" style="background-image: url(&quot;assets/img/maps.png&quot;);height: 250px;background-position: center;border-bottom: 1px solid gray;background-size: cover;border-right: 0;">
-                        <div class="card-header bg-dark text-light proj_title">
-                            <h5 class="m-0"><strong>Maps</strong></h5>
-                        </div>
-                        <div class="card-body proj-descr">
-                            <p class="card-text"><strong>Rating-based visualizer for restaurants</strong></p>
-                            <p class="card-text">A visualization of Berkeley restaurant ratings using machine learning. Users can view resturaunts tailored to previous preferences (ratings, location). It utilizes a Voronoi diagram.<br><br></p>
-                        </div>
-                        <div class="d-lg-flex d-flex justify-content-lg-center card-footer"><a class="btn btn-dark btn-sm proj_spec" role="button" href="https://inst.eecs.berkeley.edu/~cs61a/fa18/proj/maps/" target="_blank">Project Spec</a></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 filtr-item" data-category="3, 5">
-                    <div class="card border-dark"><img class="card-img-top w-100 d-block proj-img" style="background-image: url(&quot;assets/img/movies.jpg&quot;);height: 250px;background-position: top;border-bottom: 1px solid gray;background-size: cover;">
-                        <div class="card-header bg-dark text-light proj_title">
-                            <h5 class="m-0"><strong>Movie Genre Classifier</strong></h5>
-                        </div>
-                        <div class="card-body proj-descr">
-                            <p class="card-text">aksjflkadjsflkdjadlskjf</p>
-                            <p class="card-text">aksjflkadjsflkdjadlskjf</p>
-                        </div>
-                        <div class="d-lg-flex d-flex justify-content-lg-center card-footer"><button class="btn btn-dark btn-sm proj_spec" type="button">Project Spec</button></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 filtr-item" data-category="3">
-                    <div class="card border-dark"><img class="card-img-top w-100 d-block proj-img" style="background-image: url(&quot;assets/img/ants.png&quot;);height: 250px;background-position: top;border-bottom: 1px solid gray;background-size: cover;">
-                        <div class="card-header bg-dark text-light proj_title">
-                            <h5 class="m-0"><strong>Ants vs SomeBees</strong></h5>
-                        </div>
-                        <div class="card-body proj-descr">
-                            <p class="card-text">aksjflkadjsflkdjadlskjf</p>
-                            <p class="card-text">aksjflkadjsflkdjadlskjf</p>
-                        </div>
-                        <div class="d-lg-flex d-flex justify-content-lg-center card-footer"><button class="btn btn-dark btn-sm proj_spec" type="button">Project Spec</button></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 filtr-item" data-category="3, 5">
-                    <div class="card border-dark"><img class="card-img-top w-100 d-block proj-img" style="background-image: url(&quot;assets/img/cardiovasc.webp&quot;);height: 250px;background-position: center;border-bottom: 1px solid gray;background-size: contain;">
-                        <div class="d-lg-flex justify-content-lg-center align-items-lg-center card-header bg-dark text-light proj_title"
-                            style="height: 49px;">
-                            <h5 class="m-0"><strong>Cardiovascular Disease Classifier</strong></h5>
-                        </div>
-                        <div class="card-body proj-descr">
-                            <p class="card-text">aksjflkadjsflkdjadlskjf</p>
-                            <p class="card-text">aksjflkadjsflkdjadlskjf</p>
-                        </div>
-                        <div class="d-lg-flex d-flex justify-content-lg-center card-footer"><button class="btn btn-dark btn-sm proj_spec" type="button">Project Spec</button></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 filtr-item" data-category="3">
-                    <div class="card border-dark"><img class="card-img-top w-100 d-block projimg" style="background-image: url(&quot;assets/img/hogdice.jpg&quot;);height: 250px;background-position: top;border-bottom: 1px solid gray;background-size: cover;">
-                        <div class="card-header bg-dark text-light proj_title">
-                            <h5 class="m-0"><strong>Game of Hog</strong></h5>
-                        </div>
-                        <div class="card-body proj-descr">
-                            <p class="card-text">aksjflkadjsflkdjadlskjf</p>
-                        </div>
-                        <div class="d-lg-flex d-flex justify-content-lg-center card-footer"><button class="btn btn-dark btn-sm proj_spec" type="button">Project Spec</button></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/-Filterable-Cards-.js"></script>
-    <script src="assets/js/-Filterable-Gallery-with-Lightbox-BS4-.js"></script>
 </body>
 
 </html>
