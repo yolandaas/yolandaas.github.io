@@ -177,3 +177,17 @@
   }
 }
 
+@media (max-width: 991px) {
+  #app-navbar {
+    padding-bottom: 4vw;
+    padding-top: 2vw;
+  }
+}
+
+@media (min-width: 992px) {
+  #app-navbar {
+    padding-bottom: 20px;
+    padding-top: 30px;
+  }
+}
+

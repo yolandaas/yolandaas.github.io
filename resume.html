@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="assets/css/-Filterable-Cards-.css">
     <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/gradient-navbar-1.css">
+    <link rel="stylesheet" href="assets/css/gradient-navbar.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
     <link rel="stylesheet" href="assets/css/Projects-Clean.css">
     <link rel="stylesheet" href="assets/css/Social-Icons.css">
@@ -24,16 +26,19 @@
 
 <body style="background-color: rgb(255,255,255);">
     <section id="about" style="max-width: 100%;background-color: white;">
-        <nav class="navbar navbar-light navbar-expand-md" style="color: rgb(0,0,0);border-bottom: 1px solid rgb(116,116,116);">
+        <nav class="navbar navbar-dark navbar-expand-md" id="app-navbar" style="background: rgba(255,255,255,0);padding-bottom: 20px;padding-top: 30px;border-bottom: 1px solid rgb(116,116,116);">
             <div class="container-fluid">
-                <div class="container" style="padding: 0px;"><a class="navbar-brand" href="index.html" style="font-family: Raleway, sans-serif;font-size: 28px;font-weight: bold;background-position: center;background-repeat: no-repeat;color: #0056b3;">Yolanda Shen</a>
-                    <div class="collapse navbar-collapse"
-                        id="navcol-1" style="color: rgb(0,0,0);"><ul class="nav navbar-nav ml-auto" style="font-size: 19px; font-family: Raleway, sans-serif;">
-    <li role="presentation" class="nav-item"><a class="nav-link active" href="about.html" style="color: black;">About Me</a></li>
-    <li role="presentation" class="nav-item"><a class="nav-link active navlink" id="navlink" href="projects.html" style="color: black;">Projects</a></li>
-    <li role="presentation" class="nav-item"><a class="nav-link" href="resume.html" style="color: rgb(0,86,179);">Resume</a></li>
-    <li role="presentation" class="nav-item"><a class="nav-link" href="wip.html" style="color: rgb(0,0,0);">Connect</a></li>
-</ul></div><button data-target="#navcol-1" data-toggle="collapse" class="navbar-toggler border-dark" style="filter: invert(0%);"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button></div>
+                <div class="container" style="padding: 0px;"><a class="navbar-brand" href="index.html" style="font-family: Raleway, sans-serif;font-size: 28px;font-weight: bold;background-position: center;background-repeat: no-repeat;color: #0056b3;">Yolanda Shen</a><button data-toggle="collapse"
+                        class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navcol-1" style="font-family: 'Raleway';font-size: 19px;">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item" role="presentation"><a class="nav-link active" href="about.html" style="color: black;">About Me</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="projects.html" style="color: black;">Projects</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="resume.html" style="color: #0056b3;">Resume</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="wip.html" style="color: black;">Connect</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </nav>
         <div class="container justify-content-center justify-content-lg-start about" style="color: rgb(0,0,0);background-repeat: no-repeat;font-family: 'Raleway';text-align: center;align-items: center;">
@@ -53,7 +58,7 @@
                     </div>
                     <div>
                         <h1 class="text-left" style="font-family: 'Raleway';font-size: 22px;padding-bottom: 5px;border-bottom: 2px solid rgb(0,86,179);"><em>education</em></h1>
-                        <p class="text-left" style="line-height: 26px;font-family: Assistant, sans-serif;"><strong>University of California, Berkeley</strong><br><em>2018 - 2022</em><br>B.A. Data Science<br>B.A. Molecular Cell Biology - Genetics<br></p>
+                        <p class="text-left" style="line-height: 26px;font-family: Assistant, sans-serif;font-size: 12pt;"><strong>University of California, Berkeley</strong><br><em>2018 - 2022</em><br>B.A. Data Science<br>B.A. Molecular Cell Biology - Genetics<br></p>
                     </div>
                     <div>
                         <h1 class="text-left" style="font-family: 'Raleway';font-size: 22px;padding-bottom: 5px;border-bottom: 2px solid rgb(0,86,179);padding-top: 5px;"><em>skills</em></h1>
@@ -89,13 +94,13 @@
 </div></div>
                     <div>
                         <h1 class="text-left" style="font-family: 'Raleway';font-size: 22px;padding-bottom: 5px;border-bottom: 2px solid rgb(0,86,179);padding-top: 12px;"><em>relevant coursework</em></h1>
-                        <p class="text-left" style="line-height: 26px;font-family: Assistant, sans-serif;"><strong>Computer and Data Science</strong><br>Data Structures<br>Structure and Interpretation of Computer Programs<br>Fundamentals of Data Science<br><br><strong>Biology</strong><br>Molecular Biology and Lab<br>General Biology
+                        <p class="text-left" style="line-height: 26px;font-family: Assistant, sans-serif;font-size: 12pt;"><strong>Computer and Data Science</strong><br>Data Structures<br>Structure and Interpretation of Computer Programs<br>Fundamentals of Data Science<br><br><strong>Biology</strong><br>Molecular Biology and Lab<br>General Biology
                             and Lab<br>Biotech Research Projects (Ohlone College)<br><br><strong>Chemistry</strong><br>Organic Chemistry and Lab I<br>Organic Chemistry and Lab II<br>General Chemistry and Lab</p>
                     </div>
                     <div>
                         <h1 class="text-left" style="font-family: 'Raleway';font-size: 22px;padding-bottom: 5px;border-bottom: 1px solid rgb(0,86,179);"><em>awards</em></h1>
-                        <p class="text-left" style="font-family: Assistant, sans-serif;margin-bottom: 7px;"><strong>2018 </strong><br>Intel Intenational Science and Engineering Fair Finalist<br></p>
-                        <p class="text-left" style="font-family: Assistant, sans-serif;"><strong>2018</strong><br>Presidential Volunteer Service Award, Gold level<br></p>
+                        <p class="text-left" style="font-family: Assistant, sans-serif;margin-bottom: 7px;font-size: 12pt;"><strong>2018 </strong><br>Intel Intenational Science and Engineering Fair Finalist<br></p>
+                        <p class="text-left" style="font-family: Assistant, sans-serif;font-size: 12pt;"><strong>2018</strong><br>Presidential Volunteer Service Award, Gold level<br></p>
                     </div>
                 </div>
                 <div class="col" id="right-col">
@@ -117,20 +122,20 @@
                                 <p class="text-right resume-date-content" style="font-size: 18px;font-family: 'Assistant';padding-bottom: 0px;margin-bottom: 5px;">June 2017 - Aug 2018<br></p>
                             </div>
                         </div><p class="resume-desc"><em>Drakakaki Lab @ UC Davis</em><br />Researched the effects of chemical inhibitors on cytokinetic processes in algae and moss. I also contributed written portions for a paper (portions linked below) on the characterization of algal division zones and polysaccharide distribution processes. This research also has cellulose-based biofuel applications. <br/>
-    <a href=https://drive.google.com/file/d/1bO2i9eQw_hCOT5XoO0FyITTeaYmIw1Nl/view>Paper</a>  |  
-    <a href=https://drive.google.com/file/d/1Sb3YZdrC1HeyW1Xe1UKOzi4s9UuiFoMC/view>Poster</a>
+    <a href=https://drive.google.com/file/d/1bO2i9eQw_hCOT5XoO0FyITTeaYmIw1Nl/view target="_blank">Paper</a>  |  
+    <a href=https://drive.google.com/file/d/1Sb3YZdrC1HeyW1Xe1UKOzi4s9UuiFoMC/view target="_blank">Poster</a>
     <br/>Techniques  :  fluorescent antibody immunolabeling, CLSM, cell culture, cell quantification, ImageJ<br /></p></div>
                     <div class="resume-section" style="text-align: left;">
                         <h1 class="text-left resume-heading"><em>teaching</em></h1>
-                        <p style="padding-left: 20px;padding-right: 20px;font-family: Assistant, sans-serif;font-size: 17px;"><strong>A word on CS10&nbsp; |</strong>&nbsp; aka the Beauty and Joy of Computing, this is an introductory computer science course within the Berkeley Electrical Engineering and Computer Science (EECS) Department. I have been on
-                            staff for CS10 since taking it as a freshman, and cannot say enough great things about this course. The accomodation and consideration of student voices is unparalleled, and I am extremely proud of the positive impact this
+                        <p style="padding-left: 20px;padding-right: 20px;font-family: Assistant, sans-serif;font-size: 17px;"><strong>A few words on CS10&nbsp; |</strong>&nbsp; aka the Beauty and Joy of Computing, this is an introductory computer science course within the Berkeley Electrical Engineering and Computer Science (EECS) Department. I have been
+                            on staff for CS10 since taking it as a freshman, and cannot say enough great things about this course. The accomodation and consideration of student voices is unparalleled, and I am extremely proud of the positive impact this
                             course has on students, many of whom come in with zero coding background. All of the below positions refer to CS10.</p>
                         <div class="row flex-sm-column flex-md-row resume-col" style="padding: 0px;">
                             <div class="col d-xl-flex align-items-xl-center" style="margin: 0px;width: auto;">
                                 <p class="text-left resume-subtitle"><strong>Course Development Lead</strong></p>
                             </div>
                             <div class="col d-sm-flex justify-content-md-end resume-date" style="font-size: 10px;margin: 0px;width: auto;">
-                                <p class="text-right resume-date-content" style="font-size: 18px;font-family: 'Assistant';padding-bottom: 0px;margin-bottom: 5px;">May 2020 - Present</p>
+                                <p class="text-right resume-date-content" style="font-size: 18px;font-family: 'Assistant';padding-bottom: 0px;margin-bottom: 5px;">Feb 2020 - Present</p>
                             </div>
                         </div>
                         <p class="resume-desc">Manage a team of 7 in course development for CS10. I also facilitate communication with a visual formatting consultant and website development team for smooth content-to-website integration.<br>&nbsp; &nbsp; Course dev focuses

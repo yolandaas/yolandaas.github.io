@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="assets/css/-Filterable-Cards-.css">
     <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/gradient-navbar-1.css">
+    <link rel="stylesheet" href="assets/css/gradient-navbar.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
     <link rel="stylesheet" href="assets/css/Projects-Clean.css">
     <link rel="stylesheet" href="assets/css/Social-Icons.css">
@@ -24,16 +26,19 @@
 
 <body style="background-color: rgb(255,255,255);">
     <section id="wip" style="max-width: 100%;background-image: url(&quot;assets/img/IMG_8966.jpg&quot;);height: 1000px;background-size: cover;background-repeat: no-repeat;background-position: 50%, 100%;">
-        <nav class="navbar navbar-light navbar-expand-md" style="color: rgb(255,255,255);border-bottom: 1px solid rgb(116,116,116);">
+        <nav class="navbar navbar-dark navbar-expand-md" id="app-navbar" style="background: rgba(255,255,255,0);padding-bottom: 20px;padding-top: 30px;border-bottom: 1px solid rgb(116,116,116);">
             <div class="container-fluid">
-                <div class="container" style="padding: 0px;"><a class="navbar-brand" href="index.html" style="font-family: Raleway, sans-serif;font-size: 28px;font-weight: bold;background-position: center;background-repeat: no-repeat;color: rgba(255,255,255,0.9);">Yolanda Shen</a>
-                    <div class="collapse navbar-collapse"
-                        id="navcol-1" style="color: rgb(0,0,0);"><ul class="nav navbar-nav ml-auto" style="font-family: Raleway, sans-serif;">
-    <li role="presentation" class="nav-item"><a class="nav-link active navlink" id="navlink" href="about.html" style="color: rgb(255,255,255);">About Me</a></li>
-    <li role="presentation" class="nav-item"><a class="nav-link active navlink" id="navlink" href="projects.html" style="color: rgb(255,255,255);">Projects</a></li>
-    <li role="presentation" class="nav-item"><a class="nav-link navlink" id="navlink" href="resume.html" style="color: rgb(255,255,255);">Resume</a></li>
-    <li role="presentation" class="nav-item"><a class="nav-link navlink" id="navlink" href="wip.html" style="color: rgb(255,255,255);">Connect</a></li>
-</ul></div><button data-target="#navcol-1" data-toggle="collapse" class="navbar-toggler border-dark" style="filter: invert(100%);"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button></div>
+                <div class="container" style="padding: 0px;"><a class="navbar-brand" href="index.html" style="font-family: Raleway, sans-serif;font-size: 28px;font-weight: bold;background-position: center;background-repeat: no-repeat;">Yolanda Shen</a><button data-toggle="collapse" class="navbar-toggler"
+                        data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navcol-1" style="font-family: 'Raleway';font-size: 19px;">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item" role="presentation"><a class="nav-link active" href="about.html">About Me</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="projects.html" style="color: white;">Projects</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="resume.html" style="color: white;">Resume</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="wip.html" style="color: white;">Connect</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </nav><div class="container d-lg-flex justify-content-lg-center" style="height: 500px;color: rgb(0,0,0);">
             <div class="jumbotron" style="background-color: rgba(233,236,239,0);">
@@ -50,7 +55,7 @@
                 <li class="list-inline-item"><a class="wiplink" href="index.html">Home</a></li>
                 <li class="list-inline-item"><a class="wiplink" href="about.html">About</a></li>
                 <li class="list-inline-item"><a class="wiplink" href="projects.html">Projects</a></li>
-                <li class="list-inline-item"><a class="wiplink" href="wip.html">Resume</a></li>
+                <li class="list-inline-item"><a class="wiplink" href="resume.html">Resume</a></li>
                 <li class="list-inline-item"><a class="wiplink" href="wip.html">Connect</a></li>
                 </ul>
                 <p class="copyright" style="color: rgb(255,255,255);">Yolanda Shen © 2020</p>
