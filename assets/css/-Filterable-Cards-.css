@@ -88,13 +88,13 @@
   font-family: 'Raleway';
   font-size: 30px;
   padding-bottom: 5px;
-  border-bottom: 1px solid rgb(0,86,179);
+  border-bottom: 1px solid rgb(0,86,179)!important;
   padding-top: 8px;
 }
 
 .resume-subtitle {
   margin-bottom: 5px;
-  font-size: 16pt;
+  font-size: 20px;
   font-family: 'Assistant';
 }
 
