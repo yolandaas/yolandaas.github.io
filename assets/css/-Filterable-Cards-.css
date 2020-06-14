@@ -84,3 +84,54 @@
   border: 1px solid rgb(217,217,217);
 }
 
+.text-left.resume-heading {
+  font-family: 'Raleway';
+  font-size: 30px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(0,86,179);
+  padding-top: 8px;
+}
+
+.resume-subtitle {
+  margin-bottom: 5px;
+  font-size: 16pt;
+  font-family: 'Assistant';
+}
+
+.resume-desc {
+  font-family: 'Assistant';
+  font-size: 14pt;
+}
+
+@media (max-width: 991px) {
+  #left-col {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  #left-col {
+    max-width: 30%;
+  }
+}
+
+@media (max-width: 991px) {
+  #right-col {
+    margin-top: -20px;
+    min-width: 100%;
+  }
+}
+
+@media (max-width:991px) {
+  .flex-md-column {
+    -ms-flex-direction: column!important;
+    flex-direction: column!important;
+  }
+}
+
+@media (min-width: 992px) {
+  #right-col {
+    width: 70%;
+  }
+}
+
