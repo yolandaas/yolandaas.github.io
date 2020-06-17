@@ -191,3 +191,11 @@
   }
 }
 
+.connectbottomicon:hover {
+  color: rgb(242,206,96);
+}
+
+.connectbottomlink:hover {
+  color: rgb(242,206,96)!important;
+}
+
