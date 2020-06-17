@@ -25,45 +25,39 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body style="background-color: rgb(0,0,0);">
+<body>
     <div class="contact-clean" style="background-image: url(&quot;assets/img/IMG_8966.jpg&quot;);background-repeat: no-repeat;background-size: cover;background-position: center;">
         <nav class="navbar navbar-dark navbar-expand-md" id="app-navbar" style="background: rgba(255,255,255,0);padding-bottom: 20px;padding-top: 30px;border-bottom: 1px solid rgb(116,116,116);">
             <div class="container-fluid">
-                <div class="container" style="padding: 0px;"><a class="navbar-brand" href="index.html" style="font-family: Raleway, sans-serif;font-size: 28px;font-weight: bold;background-position: center;background-repeat: no-repeat;color: rgb(242,206,96);">Yolanda Shen</a><button data-toggle="collapse"
-                        class="navbar-toggler" data-target="#navcol-1" style="border-color: transparent;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navcol-1" style="font-family: 'Raleway';font-size: 19px;">
-                        <ul class="nav navbar-nav ml-auto">
-                            <li class="nav-item" role="presentation"><a class="nav-link active" href="about.html">About Me</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" href="projects.html" style="color: white;">Projects</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" href="resume.html" style="color: white;">Resume</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" href="connect.html" style="color: rgb(242,206,96);">Connect</a></li>
-                        </ul>
-                    </div>
+                <div class="container" style="padding: 0px;"><a class="navbar-brand" id="homebutton" href="index.html" style="font-family: Raleway, sans-serif;font-size: 28px;font-weight: bold;background-position: center;background-repeat: no-repeat;color: rgb(242,206,96);">Yolanda Shen</a>
+                    <button
+                        data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" style="border-color: transparent;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                        <div class="collapse navbar-collapse" id="navcol-1" style="font-family: 'Raleway';font-size: 19px;">
+                            <ul class="nav navbar-nav ml-auto">
+                                <li class="nav-item" role="presentation"><a class="nav-link active navlinkconnect" href="about.html">About Me</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link navlinkconnect" href="projects.html" style="color: white;">Projects</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link navlinkconnect" href="resume.html" style="color: white;">Resume</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link" href="connect.html" style="color: rgb(242,206,96);">Connect</a></li>
+                            </ul>
+                        </div>
                 </div>
             </div>
         </nav>
-        <section class="divider"></section><form data-bss-recipient="612893d02c670ec1b7efc1931e63d6a7" styple="color:black">
-      <fieldset>
-        <legend>Send me a message!</legend>
-		  <label for="exampleInputEmail1">Name</label>
-		  <input type="text" class="feedback-input">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="feedback-input">
-          <label for="exampleTextarea">Subject</label>
-          <textarea class="feedback-input" rows="1" cols="50"></textarea>
-          <label for="exampleTextarea">Message</label>
-          <textarea class="feedback-input" rows="6" cols="300"></textarea>
-        <div class="button" style="color:black">
-        <input type="submit" value="SUBMIT"/>
-          </div>
-      </fieldset>
-    </form>
+        <section class="divider"></section>
+        <form data-bss-recipient="612893d02c670ec1b7efc1931e63d6a7">
+            <h1 class="text-center d-xl-flex justify-content-xl-start" style="font-family: 'Raleway';margin: 0px;font-size: 28px;padding-top: 15px;">Get in touch!</h1>
+            <div class="form-group"><label>Name</label><input class="form-control" type="text" name="name" style="font-family: 'Assistant';"></div>
+            <div class="form-group"><label>Email</label><input class="form-control" type="email" name="email" style="font-family: 'Assistant';"></div>
+            <div class="form-group"><label>Subject</label><input class="form-control" type="text" name="subject" style="font-family: 'Assistant';"></div>
+            <div class="form-group"><label>Message</label><textarea class="form-control" name="message" rows="14" style="font-family: 'Assistant';"></textarea></div>
+            <div class="form-group d-xl-flex justify-content-xl-center"><button class="btn btn-primary align-items-xl-center" id="submit-contact" type="submit" style="font-family: 'Raleway'!important;">send Message</button></div>
+        </form>
         <section class="divider"></section>
     </div>
     <div class="footer-basic" style="background-color: black;color: white;">
         <footer>
-            <div class="social"><a class="connectbottomicon" href="https://www.linkedin.com/in/yolanda-shen/" target="_blank" style="border: 1px solid white;"><i class="icon ion-social-linkedin connectbottomicon" id="connectbottom"></i></a><a class="connectbottomcircle"
-                    href="mailto:yashen@berkeley.edu" target="_blank" style="border: 1px solid white;"><i class="icon ion-android-mail connectbottomicon" id="connectbottomicon"></i></a></div>
+            <div class="social"><a class="connectbottomiconcircle" href="https://www.linkedin.com/in/yolanda-shen/" target="_blank" style="border: 1px solid white;"><i class="icon ion-social-linkedin connectbottomicon" id="connectbottom"></i></a><a id="circle" class="connectbottomiconcircle"
+                    href="connect.html" style="border: 1px solid white;"><i class="icon ion-android-mail connectbottomicon" id="connectbottomicon"></i></a></div>
             <ul class="list-inline">
                 <li class="list-inline-item"><a class="connectbottomlink" href="index.html">Home</a></li>
                 <li class="list-inline-item"><a class="connectbottomlink" href="about.html">About</a></li>
@@ -76,6 +70,7 @@
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
     <script src="assets/js/-Filterable-Cards-.js"></script>
 </body>
 

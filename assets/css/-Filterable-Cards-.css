@@ -80,8 +80,8 @@
 }
 
 .btn.btn-light.btn-sm.home-button:hover {
-  color: rgb(217,217,217);
-  border: 1px solid rgb(217,217,217);
+  color: rgb(190,190,190);
+  border: 1px solid rgb(190,190,190);
 }
 
 .text-left.resume-heading {
@@ -197,5 +197,73 @@
 
 .connectbottomlink:hover {
   color: rgb(242,206,96)!important;
+}
+
+.form-control {
+  border: 1px solid rgb(242,206,96);
+}
+
+btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  border-color: rgb(242,206,96)!important;
+  background-color: transparent!important;
+}
+
+.form-control {
+  background-color: transparent!important;
+  color: white!important;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  background-color: transparent!important;
+  align-items: center;
+}
+
+.form-control:focus {
+  color: #ffffff;
+  background-color: #fff;
+  border-color: #ffffff;
+  outline: 0;
+  box-shadow: 0 0 0 .2rem rgba(0,123,255,.25);
+}
+
+#submit-contact {
+  border: 1px solid rgb(242,206,96)!important;
+}
+
+#submit-contact:hover {
+  border: 1px solid rgb(140,113,28)!important;
+}
+
+.connectbottomiconcircle:hover {
+  border: 1px solid rgb(242, 206, 96)!important;
+}
+
+.navlinkconnect:hover {
+  color: rgb(242,206,96)!important;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link:hover {
+  color: rgb(255,255,255);
+}
+
+#homebutton:hover {
+  color: rgb(140,113,28)!important;
+  border: none!important;
+}
+
+.homenavlink:hover {
+  color: rgb(190,190,190)!important;
+}
+
+.navname:hover {
+  color: rgb(190,190,190)!important;
+}
+
+.navlink:hover {
+  color: #0056b3!important;
+}
+
+.navname2:hover {
+  color: #54a4ed!important;
 }
 
