@@ -230,11 +230,6 @@ a {
   border: 1px solid rgb(187,187,187);
 }
 
-.connect-icon:hover {
-  color: #54a4ed;
-  border: 1px solid #54a4ed;
-}
-
 a:hover {
   color: #54a4ed;
   text-decoration: none;
@@ -243,6 +238,7 @@ a:hover {
 .connect-icon:hover {
   color: #54a4ed;
   text-decoration: none;
+  border: 1px solid #54a4ed;
 }
 
 .connectbottomcircle {
