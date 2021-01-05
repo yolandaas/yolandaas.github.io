@@ -272,3 +272,7 @@ btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):no
   /*border: 1px solid #54a4ed;*/
 }
 
+.yellowlink:hover {
+  color: rgb(159,133,53);
+}
+
