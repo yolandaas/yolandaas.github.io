@@ -276,3 +276,9 @@ btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):no
   color: rgb(159,133,53);
 }
 
+@media (max-width: 991px) {
+  #research-img {
+    min-width: 97%;
+  }
+}
+
