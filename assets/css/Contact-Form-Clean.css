@@ -113,6 +113,19 @@ textarea {
   line-height: 60px;
 }
 
+.proj-icon {
+  font-size: 24px;
+  display: inline-block;
+  color: #0056b3;
+  margin: 0 10px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #0056b3;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 60px;
+}
+
 @media (max-width: 991px) {
   #about-img {
     min-width: 97%;
