@@ -80,8 +80,8 @@
 }
 
 .btn.btn-light.btn-sm.home-button:hover {
-  color: rgb(190,190,190);
-  border: 1px solid rgb(190,190,190);
+  color: #54a4ed!important;
+  border: 1px solid #54a4ed!important;
 }
 
 .text-left.resume-heading {
@@ -243,7 +243,7 @@ btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):no
 }
 
 .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link:hover {
-  color: rgb(255,255,255);
+  color: #0056b3;
 }
 
 #homebutton:hover {
@@ -279,6 +279,36 @@ btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):no
 @media (max-width: 991px) {
   #research-img {
     min-width: 97%;
+  }
+}
+
+@media (max-width: 576px) {
+  #hello {
+    min-width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  #Hi {
+    font-size: 56px!important;
+  }
+}
+
+@media (min-width: 992px) {
+  #name {
+    font-size: 91px!important;
+  }
+}
+
+@media (min-width: 992px) {
+  #welc {
+    font-size: 43px!important;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn.btn-light.btn-sm.home-button {
+    font-size: 23pt!important;
   }
 }
 
