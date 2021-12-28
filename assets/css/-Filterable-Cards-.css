@@ -312,3 +312,61 @@ btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):no
   }
 }
 
+.col.natparkfiller {
+  max-width: 120px;
+  min-width: 120px;
+  max-height: 120px;
+  min-height: 120px;
+  margin-left: 5px;
+  background-color: #ffffff;
+}
+
+.col.natparksquare {
+  max-width: 120px;
+  min-width: 120px;
+  max-height: 120px;
+  min-height: 120px;
+  margin-left: 5px;
+  background-color: #f0f8ff;
+}
+
+.row.natparkrow {
+  min-width: 100%;
+  max-height: 125px;
+  padding: 0px;
+}
+
+.btn.btn-primary.natparkbutton {
+  color: black;
+  font-weight: 500;
+  border-width: 0px;
+}
+
+.btn.btn-primary.natparkbutton.visited:hover {
+  border-width: 1px;
+}
+
+.btn.btn-primary.natparkbutton.unvisited {
+  color: #a9a9a9;
+}
+
+.modal.natparkmodal {
+  align-items: center !important;
+}
+
+.modal-header {
+  width: 1000px;
+  color: #0056b3;
+  font-family: 'Raleway';
+  font-weight: bolder;
+}
+
+.modal-title {
+  font-weight: bold;
+}
+
+.modal-body {
+  font-family: 'Assistant';
+  color: black;
+}
+
