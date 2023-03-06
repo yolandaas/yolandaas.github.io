@@ -14,7 +14,6 @@
   bottom: 0;
   left: 50%;
   background: transparent;
-  -webkit-transition: all .6s ease;
   transition: all .6s ease;
 }
 
@@ -35,7 +34,6 @@
   top: 0;
   width: 40px;
   z-index: 2;
-  -webkit-animation: pulsate 1s ease-out infinite;
   animation: pulsate 1s ease-out infinite;
 }
 
